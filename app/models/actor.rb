@@ -14,4 +14,5 @@ class Actor < ActiveRecord::Base
   roles << role.join(" - ")
   roles
 end
+
 end
